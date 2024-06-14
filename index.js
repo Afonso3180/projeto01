@@ -2,7 +2,8 @@ const express = require('express');
 //importa o mongodb em MongoCLient
 const { MongoClient, ObjectId } = require('mongodb');
 // configura a url do banco
-const url="mongodb://127.0.0.1:27017";
+//const url="mongodb://127.0.0.1:27017";
+const url="mongodb+srv://afonsogarcia:ocean123@cluster0.ifkhf41.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 // nome do banco de dados
 const dbName = "backend-abril-24";
 // cria um cliente com a url criada
